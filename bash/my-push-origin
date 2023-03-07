@@ -1,0 +1,6 @@
+branch_name=$(git branch --show-current)
+
+git push -u origin $branch_name
+
+git status
+

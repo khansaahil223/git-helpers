@@ -1,0 +1,2 @@
+my-add-commit "$1"
+my-push-origin

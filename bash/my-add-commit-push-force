@@ -1,0 +1,2 @@
+git add .
+my-commit-push-force "$1"

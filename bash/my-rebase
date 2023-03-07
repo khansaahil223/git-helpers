@@ -1,0 +1,9 @@
+current_branch=$(git branch --show-current)
+git stash 
+git checkout main
+git pull
+git checkout $current_branch
+git rebase main
+git stash pop
+git status
+
